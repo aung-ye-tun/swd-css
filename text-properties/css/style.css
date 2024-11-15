@@ -1,0 +1,20 @@
+.heading{
+  text-decoration: underline;
+  letter-spacing: 5px;
+}
+
+.para {
+  text-transform: capitalize;
+  word-spacing: 4px;
+  line-height: 20px;
+}
+
+.mm {
+  letter-spacing: 2px;
+  word-spacing: 4px;
+  line-height: 32px;
+}
+
+.del {
+  text-decoration: line-through;
+}
