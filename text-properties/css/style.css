@@ -6,7 +6,11 @@
 .para {
   text-transform: capitalize;
   word-spacing: 4px;
-  line-height: 20px;
+  line-height: 30px;
+  font-family: 'Satoshi';
+  font-weight: 500;
+  font-size: 20px;
+
 }
 
 .mm {
@@ -17,4 +21,8 @@
 
 .del {
   text-decoration: line-through;
+}
+
+.short-hand {
+  font: italic 500 20px/30px Satoshi;
 }
