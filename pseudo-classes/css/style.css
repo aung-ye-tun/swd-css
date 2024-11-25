@@ -1,0 +1,20 @@
+.heading {
+  border: 3px solid black;
+  width: 300px;
+  margin: 40px;
+  padding: 20px;
+  transition-duration: 300ms;
+}
+
+.heading:hover {
+  border-color: red;
+  color: red;
+  box-shadow: 4px 4px 8px red;
+}
+
+.heading:active {
+  background-color: grey;
+  color: white;
+  border-color: grey;
+  box-shadow: 2px 2px 8px black;
+}
