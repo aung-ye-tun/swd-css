@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css");
+
+:root {
+  --blue: #2176ff;
+  --pink: #ff006e;
+  --blue-secondary: #c3d8fb;
+  --pink-secondary: #fcdeeb;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 16px;
+}
+
+main {
+  padding: 24px;
+}
+
+.heading {
+  font-size: 32px;
+  text-decoration: underline;
+  margin-bottom: 24px;
+}
+
+.box {
+  margin-bottom: 16px;
+}
+
+.btn {
+  padding: 0 24px;
+  color: white;
+  display: inline-block;
+  text-decoration: none;
+  height: 48px;
+  line-height: 48px;
+}
+
+.btn-blue {
+  background-color: var(--blue);
+  border: 1px solid var(--blue);
+}
+
+.btn-pink {
+  background-color: var(--pink);
+  border: 1px solid var(--pink);
+}
+
+.btn-blue-outline {
+  background-color: transparent;
+  border: 1px solid var(--blue);
+  color: var(--blue);
+}
+
+.btn-pink-outline {
+  background-color: transparent;
+  border: 1px solid var(--pink);
+  color: var(--pink);
+}
+
+.btn-blue-secondary {
+  background-color: var(--blue-secondary);
+  color: var(--blue);
+  border: 1px solid var(--blue-secondary);
+}
+
+.btn-pink-secondary {
+  background-color: var(--pink-secondary);
+  color: var(--pink);
+  border: 1px solid var(--pink-secondary);
+}
+
+.btn-icon { 
+  padding: 0;
+  width: 50px;
+}
+
+.rounded {
+  border-radius: 8px;
+}
+
+.rounded-pill {
+  border-radius: 100px;
+}
+
+.shadow {
+  border: 1px solid transparent;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.inner-shadow {
+  border: 1px solid transparent;
+  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
