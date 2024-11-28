@@ -1,0 +1,47 @@
+.btn {
+  padding: 0 24px;
+  color: white;
+  display: inline-block;
+  text-decoration: none;
+  height: 48px;
+  line-height: 48px;
+}
+
+.btn-blue {
+  background-color: var(--blue);
+  border: 1px solid var(--blue);
+}
+
+.btn-pink {
+  background-color: var(--pink);
+  border: 1px solid var(--pink);
+}
+
+.btn-blue-outline {
+  background-color: transparent;
+  border: 1px solid var(--blue);
+  color: var(--blue);
+}
+
+.btn-pink-outline {
+  background-color: transparent;
+  border: 1px solid var(--pink);
+  color: var(--pink);
+}
+
+.btn-blue-secondary {
+  background-color: var(--blue-secondary);
+  color: var(--blue);
+  border: 1px solid var(--blue-secondary);
+}
+
+.btn-pink-secondary {
+  background-color: var(--pink-secondary);
+  color: var(--pink);
+  border: 1px solid var(--pink-secondary);
+}
+
+.btn-icon { 
+  padding: 0;
+  width: 50px;
+}

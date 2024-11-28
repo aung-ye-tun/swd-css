@@ -1,0 +1,59 @@
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table tr {
+
+}
+
+.table th, .table td {
+  border: 1px solid black;
+  padding: 8px 16px;
+}
+
+.table-border-blue th,
+.table-border-blue td {
+  border: 1px solid var(--blue);
+  padding: 8px 16px;
+}
+
+.table-border-pink th,
+.table-border-pink td {
+  border: 1px solid var(--pink);
+  padding: 8px 16px;
+}
+
+.table .thead-blue {
+  background-color: var(--blue);
+  color: var(--white);
+}
+
+.table .thead-pink {
+  background-color: var(--pink);
+  color: var(--white);
+}
+
+.table-hover tbody tr:hover {
+  background-color: var(--grey);
+}
+
+.table-hover.table-border-blue tbody tr:hover {
+  background-color: var(--blue-secondary);
+}
+
+.table-hover.table-border-pink tbody tr:hover {
+  background-color: var(--pink-secondary);
+}
+
+.table-strip tbody tr:nth-child(odd) {
+  background-color: var(--grey);
+}
+
+.table-border-blue.table-strip tbody tr:nth-child(odd) {
+  background-color: var(--blue-secondary);
+}
+
+.table-strip.table-border-pink tbody tr:nth-child(odd) {
+  background-color: var(--pink-secondary);
+}
