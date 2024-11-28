@@ -1,0 +1,68 @@
+/* list */
+.list {
+  list-style-type: none;
+  border: 1px solid black;
+  width: 200px;
+  overflow: hidden;
+}
+
+.list-item {
+  border-bottom: 1px solid black;
+  padding: 8px 16px;
+}
+
+.list-item:last-child{
+  border-bottom: none;
+}
+
+/* list blue */
+.list-blue {
+  background-color: var(--blue-secondary);
+  border-color: var(--blue);
+}
+
+.list-blue .list-item {
+  color: var(--blue);
+  border-color: var(--blue);
+}
+
+/* list pink */
+.list-pink {
+  background-color: var(--pink-secondary);
+  border-color: var(--pink);
+}
+
+.list-pink .list-item {
+  color: var(--pink);
+  border-color: var(--pink);
+}
+
+/* list hover */
+.list-hover .list-item:hover {
+  background-color: var(--grey);
+}
+
+.list-hover.list-blue .list-item:hover {
+  background-color: var(--blue);
+  color: var(--blue-secondary);
+}
+
+.list-hover.list-pink .list-item:hover {
+  background-color: var(--pink);
+  color: var(--pink-secondary);
+}
+
+/* list active */
+.list-item.active {
+  background-color: var(--grey );
+}
+
+.list-blue .list-item.active {
+  background-color: var(--blue);
+  color: var(--blue-secondary); 
+}
+
+.list-pink .list-item.active {
+  background-color: var(--pink);
+  color: var(--pink-secondary); 
+}
