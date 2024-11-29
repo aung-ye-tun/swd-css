@@ -1,0 +1,15 @@
+.card {
+  border: 1px solid black;
+  padding: 16px;
+  width: 300px;
+  display: inline-block;
+}
+
+.card-title {
+  font-size: 25px;
+  font-family: var(--heading-font);
+}
+
+.card-text {
+ color: var(--text-grey);
+}
