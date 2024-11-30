@@ -5,10 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Card CSS</title>
     <link rel="stylesheet" href="./css/style.css" />
+    <style>
+      body {
+        height: 300vh;
+      }
+    </style>
   </head>
   <body>
     <main>
-      <section>
+      <section class="mb-6">
         <h1 class="heading mb-6">Test Card</h1>
         <div class="card mb-2">
           <h3 class="card-title mb-2">Test Card One</h3>
@@ -30,6 +35,39 @@
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque sunt
             quo voluptatibus sed unde quis!
           </p>
+        </div>
+      </section>
+      <section>
+        <h1 class="heading mb-6">Product Card</h1>
+        <div class="card p-0 border-0 shadow">
+          <img src="./img/MacBook-Air-M3.jpg" class="card-img" alt="" />
+          <div class="card-body">
+            <h3 class="card-title mb-4">Macbook Air 13"</h3>
+            <ul class="list w-full mb-4 border-0 inner-shadow">
+              <li class="list-item font-bold border-grey">8-Core CPU</li>
+              <li class="list-item font-bold border-grey">8-Core GPU</li>
+              <li class="list-item font-bold border-grey">16GB Unified Memory</li>
+              <li class="list-item font-bold border-grey">256GB SSD Storage footnote</li>
+            </ul>
+            <p class="card-text mb-4">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate architecto, alias iste amet minus quo.
+            </p>
+            <div class="card-rating mb-2">
+              <div class="star mr-2">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+              <p class="rate">(4.2/250)</p>
+            </div>
+            <p class="card-price mb-2">
+              $ <span class="price">1,099</span>
+            </p>
+            <button class="btn card-btn w-full">Add to Cart</button>
+
+          </div>
         </div>
       </section>
     </main>

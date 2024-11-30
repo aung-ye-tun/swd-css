@@ -5,6 +5,10 @@
   display: inline-block;
 }
 
+.card-body {
+  padding: 16px;
+}
+
 .card-title {
   font-size: 25px;
   font-family: var(--heading-font);
@@ -12,4 +16,35 @@
 
 .card-text {
  color: var(--text-grey);
+}
+
+.card-img {
+  width: 100%;
+}
+
+.card-rating {
+ border-bottom: 1px solid var(--grey);
+ padding-bottom: 16px;
+}
+
+.card-rating .star {
+  display: inline-block;
+  color: gold;
+}
+
+.card-rating .rate {
+  display: inline-block;
+}
+
+.card-price {
+  font-family: var(--heading-font);
+}
+
+.card-price .price{
+  font-size: 25px;
+}
+
+.card-btn {
+  background-color: black;
+  border: 1px solid black;
 }
