@@ -7,6 +7,12 @@
   line-height: 48px;
 }
 
+.btn-dark {
+  background-color: var(--black);
+  border: 1px solid var(--black);
+}
+
+
 .btn-blue {
   background-color: var(--blue);
   border: 1px solid var(--blue);
@@ -44,4 +50,9 @@
 .btn-icon { 
   padding: 0;
   width: 50px;
+}
+
+.btn-right {
+  display: block;
+  margin-left: auto;
 }
