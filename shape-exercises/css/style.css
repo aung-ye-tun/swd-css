@@ -1,0 +1,134 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 50px;
+}
+
+.break {
+  margin-bottom: 40px;
+}
+
+.sq-1 {
+  width: 100px;
+  height: 100px;
+  background-color: #377dff;
+  display: inline-block;
+  margin-right: 12px;
+}
+
+.sq-2 {
+  padding: 50px;
+  background-color: #377dff;
+  display: inline-block;
+  margin-right: 12px;
+}
+
+.sq-3 {
+  border: 50px solid #377dff;
+  display: inline-block;
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  background-color: #377dff;
+  border-radius: 50px;
+  display: inline-block;
+  margin-right: 12px;
+}
+
+.d {
+  width: 100px;
+  height: 100px;
+  background-color: #377dff;
+  border-radius: 0 50px 50px 0;
+  display: inline-block;
+  margin-right: 12px;
+}
+
+.drop {
+  width: 100px;
+  height: 100px;
+  background-color: #377dff;
+  border-radius: 0 50px 50px 50px;
+  display: inline-block;
+  margin-right: 12px;
+}
+
+.leaf {
+  width: 100px;
+  height: 100px;
+  background-color: #377dff;
+  border-radius: 0 50px;
+  display: inline-block;
+  margin-right: 12px;
+}
+
+.sq-dashed {
+  width: 100px;
+  height: 100px;
+  background-color: #dae7ff;
+  border: 4px dashed #377dff;
+  display: inline-block;
+  margin-right: 12px;
+}
+
+.circle-dashed {
+  width: 100px;
+  height: 100px;
+  background-color: #dae7ff;
+  border: 4px dashed #377dff;
+  border-radius: 50px;
+  display: inline-block;
+  margin-right: 12px;
+}
+
+.sq-border-right {
+  width: 100px;
+  height: 100px;
+  background-color: #dae7ff;
+  border-left: 4px solid #377dff;
+  display: inline-block;
+  margin-right: 12px;
+}
+
+.price-tag {
+  background-color: #377dff;
+  display: inline-block;
+  color: white;
+  height: 50px;
+  font-size: 24px;
+  line-height: 50px;
+  padding: 0 20px;
+  position: relative;
+  margin-left: 25px;
+}
+
+.price-tag::after {
+  content: "";
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: 2px solid silver;
+  background-color: #fff;
+  display: inline-block;
+  position: absolute;
+  left: -6px;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.price-tag::before {
+  content: "";
+  border: 25px solid transparent;
+  border-right-color: #377dff;
+  border-left-width: 0;
+  display: inline-block;
+  position: absolute;
+  left: -25px;
+}
