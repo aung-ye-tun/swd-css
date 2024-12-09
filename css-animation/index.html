@@ -5,12 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CSS animation</title>
     <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
   </head>
   <body>
     <main>
       <h1 class="main-title ani-fadeIn speed-1500">Learn CSS Animation</h1>
+
+      <!-- animate.css -->
+
       <div class="box">
-        <div class="obj ani-rotateIn speed-500">
+        <div class="obj animate__animated animate__fadeInLeft animate__faster">
           <h1 class="obj-title">Content box 1</h1>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta ea
@@ -19,7 +26,7 @@
             Accusamus amet assumenda consectetur.
           </p>
         </div>
-        <div class="obj ani-rotateIn speed-1000 delay-500">
+        <div class="obj animate__animated animate__fadeInLeft animate__fast">
           <h1 class="obj-title">Content box 2</h1>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta ea
@@ -28,7 +35,7 @@
             Accusamus amet assumenda consectetur.
           </p>
         </div>
-        <div class="obj ani-rotateIn speed-1500 delay-1000">
+        <div class="obj animate__animated animate__fadeInLeft animate__slow">
           <h1 class="obj-title">Content box 3</h1>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta ea
@@ -38,6 +45,38 @@
           </p>
         </div>
       </div>
+
+      <!-- Custom Animations -->
+
+      <!-- <div class="box">
+        <div class="obj ani-slideOutRight speed-1500">
+          <h1 class="obj-title">Content box 1</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta ea
+            autem dignissimos doloremque veritatis, voluptatem, aperiam ullam
+            obcaecati reprehenderit cumque eos nihil, officiis nulla sunt a!
+            Accusamus amet assumenda consectetur.
+          </p>
+        </div>
+        <div class="obj ani-slideOutRight speed-1500 delay-500">
+          <h1 class="obj-title">Content box 2</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta ea
+            autem dignissimos doloremque veritatis, voluptatem, aperiam ullam
+            obcaecati reprehenderit cumque eos nihil, officiis nulla sunt a!
+            Accusamus amet assumenda consectetur.
+          </p>
+        </div>
+        <div class="obj ani-slideOutRight speed-1500 delay-1000">
+          <h1 class="obj-title">Content box 3</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta ea
+            autem dignissimos doloremque veritatis, voluptatem, aperiam ullam
+            obcaecati reprehenderit cumque eos nihil, officiis nulla sunt a!
+            Accusamus amet assumenda consectetur.
+          </p>
+        </div>
+      </div> -->
     </main>
   </body>
 </html>

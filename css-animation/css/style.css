@@ -57,6 +57,11 @@ main {
   animation-fill-mode: both;
 }
 
+.ani-slideOutRight {
+  animation-name: slideOutRight;
+  animation-fill-mode: both;
+}
+
 .speed-500 {
   animation-duration: 500ms;
 }
@@ -138,4 +143,21 @@ main {
     opacity: 1;
 
   }
+}
+
+@keyframes slideOutRight {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0.3) translateX(0);
+  }
+  75% {
+    transform: scale(0.3) translateX(-40%);
+  }
+  100% {
+    transform: scale(0.3) translateX(2000px);
+
+  }
+  
 }
