@@ -1,0 +1,141 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+main {
+  padding: 20px;
+}
+
+.main-title {
+  margin-bottom: 40px;
+  /* animation-name: slideInLeft;
+  animation-duration: 1500ms;
+  animation-delay: 1500ms;
+  animation-fill-mode: both; */
+}
+
+.box {
+
+}
+
+.obj {
+  border: 2px solid black;
+  margin-bottom: 24px;
+  padding: 20px;
+  background-color: lightgreen;
+  /* animation-name: slideInLeft;
+  animation-duration: 1000ms;
+  animation-fill-mode: backwards; */
+}
+
+.ani-rotateIn {
+  animation-name: rotateIn;
+  animation-fill-mode: both;
+  transform-origin: 0 0;
+}
+
+.ani-fadeIn {
+  animation-name: fadeIn;
+  animation-fill-mode: both;
+}
+
+.ani-zoomIn {
+  animation-name: zoomIn;
+  animation-fill-mode: both;
+}
+
+.ani-slideInLeft {
+  animation-name: slideInLeft;
+  animation-fill-mode: both;
+}
+
+.ani-slideInRight {
+  animation-name: slideInRight;
+  animation-fill-mode: both;
+}
+
+.speed-500 {
+  animation-duration: 500ms;
+}
+
+.speed-1000 {
+  animation-duration: 1000ms;
+}
+
+.speed-1500 {
+  animation-duration: 1500ms;
+}
+
+.delay-0 {
+  animation-delay: 0ms;
+}
+
+.delay-500 {
+  animation-delay: 500ms;
+}
+
+.delay-1000 {
+  animation-delay: 1000ms;
+}
+
+.obj-title {
+  margin-bottom: 12px;
+}
+
+@keyframes slideInLeft {
+  from {
+    transform: translateX(-120%);
+  }
+  to {
+    transform: translateX(0%);
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    transform: translateX(120%) scale(0.3);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateX(0%) scale(1);
+    opacity: 1;
+
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes zoomIn {
+  from {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes rotateIn {
+  from {
+    transform: rotate(45deg) scale(0);
+    opacity: 0;
+
+  }
+  to {
+    transform: rotate(0deg) scale(1);
+    opacity: 1;
+
+  }
+}
