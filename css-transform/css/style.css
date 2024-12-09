@@ -8,6 +8,8 @@
    border: 3px solid black;
    margin: 50px;
    height: 500px;
+   /* 3d transform  */
+   perspective: 1000px;
 }
 
 .obj {
@@ -26,4 +28,28 @@
 
   /* 3d transform  */
   
+  /* transform: rotateX(30deg); */
+  /* transform: rotateY(40deg); */
+  /* transform-origin: 100% 0; */
+  /* transform: translateZ(-40px); */
+   
+
+  /* transition  */
+
+  transform: translateX(-90%);
+  /* transition: 500ms; */
+  transition-duration: 500ms;
+  /* transition-delay: 800ms; */
+  /* transition-timing-function: steps(5); */
+  /* transition-timing-function: linear; */
+  transition-timing-function: ease-in-out;
+  /* transition-property: transform; */
+  /* transition-property: filter; */
+  transition-property: all;
+}
+
+/* transition  */
+.obj:hover {
+  transform: translateX(0);
+  filter: grayscale(1);
 }
